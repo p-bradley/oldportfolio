@@ -3,7 +3,7 @@ const config = {
     port: 3306,
     uname: 'root',
     pname: '',
-    db: 'db_Bradley_P_Hosting'
+    db: 'db_bradley_p_hosting'
 }
 
 module.exports = config;

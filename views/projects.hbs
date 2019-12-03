@@ -1,0 +1,41 @@
+<main>
+    <section>
+        <div>
+            <div class="ProjContainer">
+            <h3>projects</h3>
+
+            <div class="projects">
+                {{#each project}}
+                <a href="project/{{ID}}" class="p-link">
+                <img src="images/{{ProjImg}}" class="p-img" alt="image for project {{Name}}">
+                </a>
+                {{/each}}
+            </div>
+        
+                <div class="ProjectVideo">
+                    <h3>Past Works: Demo Reel</h3>
+                    <div class="VideoUnderline"></div>
+                    <video src="assets/.mp4"></video>
+                </div>
+            </div>
+            
+            
+            <div class="lightbox">
+        <span class="close">x</span>
+
+        <div class="lb-content">
+            <div class="images"></div>
+            <h3>{{Name}}</h3>
+            <div class="ProjectsUnderline"></div>
+            <div class="paraContent1"></div>
+            <div>
+                <h3>Tools</h3>
+                <div class="content1"></div>
+                <div class="content2"></div>
+            </div>
+        </div>
+    </div>
+
+        </div>
+    </section>
+</main>
