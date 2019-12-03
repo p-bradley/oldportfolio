@@ -1,0 +1,27 @@
+<main>
+    <section>
+        <h3>About</h3>
+        <h4>hello</h4>
+        <p>My name is Patrick Bradley. I’m a second-year Interactive Media Design student at Fanshawe College in London, Ontario.</p>
+        <p>I love graphic design (especially UX/UI) video editing and photography as well as hockey, videogames, thrift shopping, music, swimming and dogs.</p>
+        
+    </section>
+        <aside>
+            <h3>download my resume here</h3>
+            <a href="/assets/resume.pdf" download="patrick_bradley_resume"><h3>resume</h3></a>
+            </aside>
+
+   <section>
+       <h3>my services</h3>
+       <div class="services_underline">
+       </div>
+       <div>
+        {{#each Services}}
+           <div class="services">
+               <h5>{{Service}}</h5>
+           </div>
+        {{/each}}
+
+       </div>
+   </section>
+</main>
