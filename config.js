@@ -1,9 +1,9 @@
 const config = {
-    host: 'localhost',
+    host: 'us-cdbr-iron-east-05.cleardb.net',
     port: 3306,
-    uname: 'root',
-    pname: '',
-    db: 'db_bradley_p_hosting'
+    uname: 'b4428f57ad7372',
+    pname: 'd110515c',
+    db: 'heroku_33dfaa1c0bb83fe'
 }
 
 module.exports = config;
