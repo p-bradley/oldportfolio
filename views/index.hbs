@@ -1,48 +1,54 @@
 <main>
     <section class="mainBck">
-        <div>
+
             <h1>patrick bradley</h1>
+            <div class="homeUnderline" id="homeUnderline1"></div>
             <h2>ux/ui designer</h2>
-            <img src="images/down.svg" alt="down arrow">
-            </div>
+            <a href="#featured"><img src="images/down.svg" alt="down arrow"></a>
+           
     </section>
 
-    <section>
-        <div>
-            <h3>featured work</h3>
-            <div class="featured_underline"></div>
-            <h3>web design</h3>
-                <div>
-                    <h4>Thames River Anglers Association</h4>
-                    <img src="images/" alt="down arrow">
-                    <img src="images/" alt="down arrow">
-                    <img src="images/" alt="down arrow">
-                    <img src="images/" alt="down arrow">
+    <section class="greyBck">
+        <div class="whiteBox homeProj">
+            <h3 id="featured">featured work</h3>
+            <div class="projUnderline homeUnderline"></div>
+            <h4>web design</h4>
+                <div class="projAnglers">
+                    <h5>Thames River Anglers Association</h5>
+                    <div class="imageCon">
+                    <img class="slide showing" src="images/traa_home.png" alt="TRAA home page">
+                    <img class="slide" src="images/traa_merch.png" alt="TRAA merchandise">
+                    <img class="slide" src="images/traa_video.png" alt="TRAA video">
+                    <img class="slide" src="images/traa_rehab.png" alt="TRAA rehabilitation">
+                    </div>
                     <p>The Thames River Anglers Association (TRAA) asked for a remodel of their website “Anglers.Org.”</p>
                     <p>The main features that were targeted during this remodel were the layout, functionality and simplicity while leaving the information and logo 
                     unedited.</p>
                 </div>
                     <div class="home_divider_underline"></div>
-                    <div>
-                        <h3>photography</h3>
-                        <h3>france/italy 2019</h3>
-                        <img src="images/" alt="down arrow">
-                        <img src="images/" alt="down arrow">
-                        <img src="images/" alt="down arrow">
-                        <img src="images/" alt="down arrow">
-                        <img src="images/" alt="down arrow">
-                        <img src="images/" alt="down arrow">
-                        <img src="images/" alt="down arrow">
+                    <div class="photoProj">
+                        <h4>photography</h4>
+                        <h5>France/Italy 2019</h5>
+                        <div class="imageCon">
+                    <img class="slide2 showing" src="images/harbour.png" alt="harbour">
+                    <img class="slide2" src="images/beach.png" alt="beach">
+                    <img class="slide2" src="images/coast.png" alt="coast">
+                    <img class="slide2" src="images/skyline.png" alt="skyline">
+                     <img class="slide2" src="images/roads.png" alt="roads">
+                    <img class="slide2" src="images/bubbles.png" alt="bubbles">
+                    <img class="slide2" src="images/restaurant.png" alt="restaurant">
+                    </div>
                         <p>In February of 2019 I had the pleasure of touring Nice, France and Genova, Italy for one week. The food and everyday life in these two cities was unique and it was interesting to see how people’s lives in Europe differ from lives in North America.</p>
                         <p>This trip was an amazing experience and gave me the opportunity to capture both the beauty and culture of France and Italy in 35mm film.</p>
                     </div>
+                    </div>
 
-                    <aside>
+                    <aside class="blackBox">
                         <h3>see more work</h3>
-                        <a href="projects"><h3>projects</h3></a>
+                        <a href="projects"><h4>projects</h4></a>
                     </aside>
 
-                    <section>
+                    <section class="whiteBox homeSkills">
                         <h3>Skills</h3>
                         <div class="skills">
                             {{#each skill}}
