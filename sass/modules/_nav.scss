@@ -1,0 +1,58 @@
+.navCon {
+    height: 100%;
+    background-color: #181919;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+.navBar {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.navCon ul li a{
+    text-decoration: none;
+    font-family: $font-style;
+    font-size: 70px;
+    color: white;
+    text-transform: uppercase;
+    line-height: 86px;
+}
+
+.navLine {
+    width: 90%;
+    height: 2px;
+    background-color: #f4753d;
+    margin: 20px auto 30px auto;
+}
+
+.dropdown {
+    position: fixed;
+    top: 0;
+    height: 50px;
+    width: 100%;
+    background-color: rgba($color: black, $alpha: 0.1);
+}
+
+.hamburgerIcon {
+    width: 12%;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    
+
+}
+
+.logo {
+    width: 54%;
+    display: flex;
+    margin: 14px auto;
+}
+
+.navLogo {
+    width: 80%;
+    margin: 0 auto;
+}
