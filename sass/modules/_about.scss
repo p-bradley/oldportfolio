@@ -1,11 +1,13 @@
 .aboutText h3 {
-    font-size: 30px;
+    font-size: 80px;
     padding-top: 30px;
+    margin-bottom: 40px;
+    letter-spacing: 2px;
 }
 
 .aboutText h4 {
     font-family: $font-style3;
-    font-size: 50px;
+    font-size: 160px;
     text-transform: uppercase;
     font-weight: bold;
     text-align: center;
@@ -13,39 +15,46 @@
     margin: 20px auto;
 }
 
+.aboutText {
+    margin-top: 130px;
+}
+
 .aboutUnderline {
     width: 32%;
-    margin: 20px auto;
+    margin: 20px auto 40px auto;
 } 
 
 .aboutText p {
-    letter-spacing: 2px;
+    letter-spacing: 4px;
     width: 90%;
+    margin-bottom: 60px;
 }
 
 .aboutText p:nth-child(5){
-    padding-bottom: 20px;
+    padding-bottom: 50px;
 }
 
 .aboutBox h3{
     
-    font-size: 26px;
+    font-size: 70px;
 }
 
 .serviceLine {
     width: 50%;
-    margin: 20px auto;
+    margin: 40px auto 60px auto;
 }
 
 .myServices h3 {
     margin-top: 20px;
-    padding-top: 10px;
+    padding-top: 40px;
+    font-size: 80px;
 }
 
 .services h5{
     font-family: $font-style2;
-    font-size: 14px;
+    font-size: 40px;
     text-align: center;
+    font-weight: bold;
 }
 
 .serviceCon {
@@ -55,7 +64,8 @@
     justify-content: space-evenly;
     width: 90%;
     margin: 0 auto;
-    height: 100px;
+    padding-bottom: 30px;
+    line-height: 90px;
 }
 
 .services {
