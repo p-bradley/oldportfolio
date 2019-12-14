@@ -1,25 +1,25 @@
 .footerLine {
     width: 80%;
-    margin: 15px auto 30px auto;
-    height: 6px;
+    margin: 15px auto 20px auto;
+    height: 3px;
 }
 
 .footerBox {
     background-color: #181919;
-    padding-bottom: 50px;
+    padding-bottom: 25px;
 }
 
 .socialCon img {
     width: 90%;
     max-width: 20%;
-    margin-top: 40px;
+    margin-top: 25px;
 }
 
 .socialCon {
     display: flex;
     justify-content: space-evenly;
     width: 40%;
-    margin: 0 auto 30px auto;
+    margin: 0 auto 10px auto;
 }
 
 .footerPages ul {
@@ -35,5 +35,5 @@
     text-decoration: none;
     color: white;
     text-transform: uppercase;
-    font-size: 42px;
+    font-size: 14px;
 }

@@ -1,12 +1,12 @@
 .contactText h3{
-    font-size: 80px;
-    padding-top: 40px;
-    margin-bottom: 40px;
+    font-size: 40px;
+    padding-top: 30px;
+    margin-bottom: 20px;
 }
 
 .contactLine {
-    width: 32%;
-    margin: 20px auto 40px;
+    width: 40%;
+    margin: 10px auto 30px;
 }
 
 form {
@@ -14,36 +14,37 @@ form {
     flex-direction: column;
     background-color: #191918;
     margin: 0 auto;
-    padding: 60px 50px 20px 50px;
+    padding: 20px 20px 10px 20px;
     width: 80%;
     color: white;
 }
 
 label {
     font-family: $font-style2;
-    font-size: 60px;
+    font-size: 20px;
     margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 input{
-    height: 70px;
-    font-size: 34px;
+    height: 30px;
+    font-size: 16px;
 }
 
 ::placeholder{
-    font-size: 36px;
+    font-size: 16px;
     text-transform: capitalize;
 }
 
 textarea{
-    height: 300px;
+    height: 140px;
 }
 
 form button {
     display: block;
     width: 100%;
-    margin: 60px auto;
-    height: 140px;
+    margin: 20px auto;
+    height: 60px;
     background-color: #f4753e;
     border-radius: 12px;
     border: none;
@@ -52,10 +53,10 @@ form button {
     text-transform: uppercase;
     font-weight: bold;
     letter-spacing: 2px;
-    font-size: 40px;
+    font-size: 20px;
  }
 
  .contactText {
-     padding-bottom: 40px;
-     margin-top: 130px;
+     padding-bottom: 20px;
+     margin-top: 60px;
  }
