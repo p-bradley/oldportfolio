@@ -9,7 +9,7 @@
     </section>
 
     <section class="greyBck">
-        <div class="whiteBox homeProj">
+        <div class="whiteBox whiteBox1 homeProj">
             <h3 id="featured">featured work</h3>
             <div class="projUnderline homeUnderline"></div>
             <h4>web design</h4>
@@ -25,7 +25,7 @@
                     <p>The main features that were targeted during this remodel were the layout, functionality and simplicity while leaving the information and logo 
                     unedited.</p>
                 </div>
-                    <div class="home_divider_underline"></div>
+                    <div class="homeDivLine"></div>
                     <div class="photoProj">
                         <h4>photography</h4>
                         <h5>France/Italy 2019</h5>
@@ -45,20 +45,20 @@
 
                     <aside class="blackBox">
                         <h3>see more work</h3>
-                        <a href="projects"><h4>projects</h4></a>
+                        <button class="projBtn"><a href="projects"><h4>projects</h4></a></button>
                     </aside>
 
                     <section class="whiteBox homeSkills">
                         <h3>Skills</h3>
                         <div class="skills">
                             {{#each skill}}
-                        <div id="skill{{ID}}">
+                        <div class="skillCon" id="skill{{ID}}">
                             <img src="images/{{Program}}" alt="icon for {{Name}}">
                             <h4>{{Name}}</h4>
 
                         </div>
-                        </div>
-                        {{/each}}         
+                         {{/each}} 
+                        </div>        
         <section>
     </section>
 </main>
