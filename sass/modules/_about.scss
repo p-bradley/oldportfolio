@@ -1,0 +1,64 @@
+.aboutText h3 {
+    font-family: $font-style;
+    font-size: 30px;
+    padding-top: 30px;
+}
+
+.aboutText h4 {
+    font-family: $font-style3;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 5px;
+    margin: 20px auto;
+}
+
+.aboutUnderline {
+    width: 32%;
+    margin: 20px auto;
+} 
+
+.aboutText p {
+    letter-spacing: 2px;
+    width: 90%;
+}
+
+.aboutText p:nth-child(5){
+    padding-bottom: 20px;
+}
+
+.aboutBox h3{
+    
+    font-size: 26px;
+}
+
+.serviceLine {
+    width: 50%;
+    margin: 20px auto;
+}
+
+.myServices h3 {
+    margin-top: 20px;
+    padding-top: 10px;
+}
+
+.services h5{
+    font-family: $font-style2;
+    font-size: 14px;
+    text-align: center;
+}
+
+.serviceCon {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 90%;
+    margin: 0 auto;
+    height: 100px;
+}
+
+.services {
+    width: 50%;
+}
