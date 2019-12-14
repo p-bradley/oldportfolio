@@ -1,7 +1,8 @@
 const config = require('../config');
 const sql = require('mysql');
 
-const connect = sql.createConnection({
+const pool = sql.createPool({
+    connectionLimit : 10,
     host: config.host,
     port: config.port,
     user: config.uname,
@@ -9,4 +10,9 @@ const connect = sql.createConnection({
     database: config.db
 })
 
-module.exports = connect;
+pool.query('SELECT 1 + 1 AS solution', function (error, results, fields) {
+    if (error) throw error;
+    console.log('The solution is: ', results[0].solution);
+  });
+
+module.exports = pool;

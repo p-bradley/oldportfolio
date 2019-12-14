@@ -1,0 +1,39 @@
+.footerLine {
+    width: 80%;
+    margin: 15px auto;
+}
+
+.footerBox {
+    background-color: #181919;
+    height: 120px;
+}
+
+.socialCon img {
+    width: 90%;
+    max-width: 20%;
+    margin-top: 10px;
+}
+
+.socialCon {
+    display: flex;
+    justify-content: space-evenly;
+    width: 40%;
+    margin: 0 auto;
+}
+
+.footerPages ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.footerPages ul li a {
+    font-family: $font-style3;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+}

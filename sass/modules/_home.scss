@@ -45,6 +45,7 @@
 .greyBck {
     background: #f4f4f4;
     padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .whiteBox {
@@ -69,6 +70,7 @@
 .projUnderline {
     width: 50%;
     margin: 15px auto 15px auto;
+
 }
 
 .homeProj h4{
@@ -86,6 +88,13 @@
     padding-top: 40px;
     width: 150px;
     margin: 0 auto;
+}
+
+.homeDivLine {
+    background-color: #f4753e;
+    height: 2px;
+    max-width: 90%;
+    margin: 55px auto;
 }
 
 .imageCon {
@@ -112,4 +121,86 @@
 .showing {
     opacity: 1;
     z-index: 2;
+}
+
+.whiteBox p {
+    text-align: left;
+    font-size: 14px;
+    font-family: $font-style2;
+    margin: 15px auto;
+    width: 94%;
+    letter-spacing: 1.6px;
+}
+
+.whiteBox1 {
+    padding-bottom: 10px;
+}
+
+.blackBox {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #181919;
+    color: white;
+    height: 110px;
+    padding-top: 20px;
+}
+
+.projBtn {
+   display: block;
+   width: 120px;
+   margin: 10px auto;
+   height: 50px;
+   background-color: #f4753e;
+   border-radius: 12px;
+   border: none;
+
+}
+
+.blackBox h4 {
+    color: white;
+    text-transform: uppercase;
+    font-family: $font-style3;
+    margin: 12px auto;
+    font-size: 15px;
+}
+
+
+.blackBox h3 {
+    letter-spacing: 2.4px;
+    margin-bottom: 15px;
+}
+
+.blackBox a {
+    text-decoration: none;
+}
+
+.skills img {
+    max-width: 70%;
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+}
+
+.skillCon {
+    flex-direction: column;
+    width: 50%;
+    text-align: center;
+}
+
+.skills {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+
+.skillCon h4 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: $font-style2;
+}
+
+.homeSkills h3 {
+    margin-bottom: 20px;
 }
