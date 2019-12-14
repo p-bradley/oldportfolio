@@ -1,11 +1,12 @@
 .contactText h3{
-    font-size: 30px;
-    padding-top: 30px;
+    font-size: 80px;
+    padding-top: 40px;
+    margin-bottom: 40px;
 }
 
 .contactLine {
     width: 32%;
-    margin: 20px auto;
+    margin: 20px auto 40px;
 }
 
 form {
@@ -13,30 +14,35 @@ form {
     flex-direction: column;
     background-color: #191918;
     margin: 0 auto;
-    padding: 30px 20px 20px 20px;
+    padding: 60px 50px 20px 50px;
     width: 80%;
     color: white;
 }
 
 label {
     font-family: $font-style2;
-    font-size: 20px;
+    font-size: 60px;
     margin-top: 20px;
 }
 
 input{
-    padding: 6px;
+    height: 70px;
+}
+
+::placeholder{
+    font-size: 36px;
+    text-transform: capitalize;
 }
 
 textarea{
-    height: 100px;
+    height: 300px;
 }
 
 form button {
     display: block;
     width: 100%;
-    margin: 20px auto;
-    height: 50px;
+    margin: 60px auto;
+    height: 140px;
     background-color: #f4753e;
     border-radius: 12px;
     border: none;
@@ -45,8 +51,10 @@ form button {
     text-transform: uppercase;
     font-weight: bold;
     letter-spacing: 2px;
+    font-size: 40px;
  }
 
  .contactText {
-     padding-bottom: 20px;
+     padding-bottom: 40px;
+     margin-top: 130px;
  }
