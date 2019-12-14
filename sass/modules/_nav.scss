@@ -27,6 +27,7 @@
     line-height: 86px;
 }
 
+
 .navCon ul li a:hover{
     color: #f4753d;
 }
@@ -44,7 +45,6 @@
 .dropdown {
     position: fixed;
     top: 0;
-    height: 50px;
     width: 100%;
     background-color: rgba($color: black, $alpha: 0.5);
     z-index: 9000;
