@@ -239,3 +239,233 @@
 
     /*PROJECTS END (640px)*/
 }
+
+@media screen and (min-width:1000px) {
+
+    /*HOME START (1000px)*/
+
+    .mainBck h1 {
+        font-size: 106px;
+        padding-top: 240px;
+        letter-spacing: 16px;
+        margin-bottom: 40px;
+    }
+    
+    .mainBck h2 {
+        padding-top: 20px;
+        font-size: 30px;
+        letter-spacing: 10px;
+    }
+
+    #homeUnderline1 {
+        width: 85%;
+        margin-bottom: 30px;
+    }
+
+    .mainBck a img {
+        margin-top: 60px;
+        width: 80px;
+    }
+
+    .homeProj h3 {
+        font-size: 80px;
+        letter-spacing: 6px;
+    }
+
+    .homeProj h4 {
+        font-size: 60px;
+        letter-spacing: 5px;
+        margin-bottom: 30px;
+    }
+
+    .projAnglers h5 {
+        font-size: 36px;
+        width: 41%;
+        line-height: 44px;
+    }
+
+    .imageCon {
+        margin-bottom: 500px;
+    }
+
+    .projAnglers p {
+        font-size: 32px !important;
+        line-height: 50px;
+        letter-spacing: 1px;
+        padding-bottom: 20px;
+    }
+
+    .homeDivLine {
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+
+    .photoProj h5{
+        font-size: 36px;
+    }
+
+    .photoProj div {
+        margin-bottom: 580px;
+    }
+
+    .photoProj p {
+        font-size: 28px !important;
+        line-height: 50px;
+        margin-bottom: 40px;
+    }
+
+    .blackBox {
+        height: 300px;
+    }
+
+    .projBtn {
+        height: 120px;
+    }
+
+    .projBtn a h4 {
+        font-size: 30px;
+        padding-top: 40px;
+        letter-spacing: 6px;
+    }
+
+    .blackBox h3 {
+        margin-top: 40px;
+        padding-top: 40px;
+        font-size: 60px;
+        letter-spacing: 10px;
+    }
+
+    .homeSkills h3 {
+        font-size: 80px;
+        margin-bottom: 60px;
+    }
+
+    .skills {
+        width: 90%;
+    }
+
+    .skillCon {
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 25%;
+    }
+
+    .socialCon img {
+        margin-top: 40px;
+        max-width: 10%;
+        margin-bottom: 10px;
+    }
+
+    .footerPages ul li a {
+        font-size: 22px;
+    }
+
+    .footerPages {
+        width: 75%;
+        margin: 0 auto;
+    }
+
+    .footerBox {
+        height: 180px;
+    }
+
+    .footerLine {
+        margin-bottom: 30px;
+    }
+
+     /*HOME END (1000px)*/
+
+/*------------------------------------/*
+
+ /*ABOUT START (1000px)*/
+
+    .aboutText h3 {
+        font-size: 60px;
+    }
+
+    .aboutUnderline {
+        width: 24%;
+    }
+
+    .aboutText p {
+        font-size: 24px;
+        letter-spacing: 3px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        line-height: 35px;
+    }
+
+    .serviceCon {
+        width: 60%;
+    }
+
+     /*ABOUT END (1000px)*/
+
+/*------------------------------------/*
+    
+     /*CONTACT START (1000px)*/
+
+     .contactText h3 {
+         font-size: 60px;
+     }
+
+     .contactLine {
+         width: 20%;
+     }
+
+     form {
+         width: 90%;
+     }
+
+     label {
+         font-size: 30px;
+         line-height: 40px;
+     }
+
+     input {
+         width: 60%;
+         height: 45px !important;
+     }
+
+     textarea {
+         width: 85%;
+         height: 180px;
+     }
+
+     form button {
+         width: 50%;
+         margin: 40px 0;
+         height: 100px;
+         font-size: 32px;
+         letter-spacing: 4px;
+
+     }
+
+     .projects a {
+        max-width: 33.3%;
+
+    }
+
+    .projects {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .projectCon h3 {
+        font-size: 60px;
+    }
+    
+    .projLine {
+        width: 20%;
+    }
+
+    .videoLine {
+        width: 40%;
+    }
+
+    .projectCon p {
+        font-size: 32px;
+    }
+
+}
