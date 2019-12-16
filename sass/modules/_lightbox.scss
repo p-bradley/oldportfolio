@@ -1,0 +1,41 @@
+.projHide {
+    display: none !important;
+}
+
+.lightbox {
+    margin-top: 50px;
+
+}
+
+.images {
+    max-width: 90%;
+    width: 90%;
+    margin: 0 auto 120px auto;
+    display: flex;
+
+}
+
+.toolIcons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.toolIcons img{
+    max-width: 30%;
+    width: 90%;
+}
+
+.close {
+    position: absolute;
+    right: 4%;
+    top: 70px;
+    font-family: $font-style2;
+    font-weight: bold;
+    font-size: 26px;
+    cursor: pointer;
+}
+
+.lb-text {
+    font-family: $font-style3;
+}

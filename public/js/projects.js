@@ -1,9 +1,9 @@
 const lightboxParse = (() => {
     let projCover = document.querySelectorAll('.p-link'),
         lightbox = document.querySelector('.lightbox'),
-        container = document.querySelector('.projContainer');
+        container = document.querySelector('.projectCon');
 
-        //this is going to parse the data
+        
 
         function parseData(object) {
             let images = document.querySelector('.images'),
@@ -11,26 +11,23 @@ const lightboxParse = (() => {
                 icon1 = document.querySelector('.content1'),
                 icon2 = document.querySelector('.content2');
 
-                let lbImg = `
-                <img class="lb-image" src="${object.lightIMG}"
-                `,
+                let lbImg = 
+                `images/${object.lightIMG}`,
                 lbPara = `
                 <p class="lb-text">${object.Para}</p>
                 `,
-                lbIcon1 = `
-                <img class="lb-icon1 lb-icon" src="${object.Icon1}" 
-                `,
-                lbIcon2 = `
-                <img class="lb-icon2 lb-icon" src="${object.Icon2}" 
-                `;
+                lbIcon1 = 
+                `images/${object.Icon1}`,
+                lbIcon2 = 
+                `images/${object.Icon2}`;
 
-                images.innerHTML = lbImg;
+                images.src = lbImg;
                 para.innerHTML = lbPara;
-                icon1.innerHTML = lbIcon1;
-                icon2.innerHTML = lbIcon2;
-                
+                icon1.src = lbIcon1;
+                icon2.src = lbIcon2;
+
                 lightbox.classList.add('show-lb');
-                container.classList.add('hidden');
+                
         }
 
         function getData(event) {
@@ -49,10 +46,15 @@ const lightboxParse = (() => {
         }
 
         projCover.forEach(image => image.addEventListener("click", getData));
+        projCover.forEach(image => image.addEventListener("click", function() {
+            container.classList.add('projHide');
+            lightbox.classList.remove('projHide');
+        }));
 
 lightbox.querySelector('.close').addEventListener("click", function() {
-    lightbox.classList.remove('show-lb');
-    container.classList.remove('hidden');
+    lightbox.classList.add('projHide');
+    container.classList.remove('projHide');
+    
 });
-  
+
 })();
