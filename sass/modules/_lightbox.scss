@@ -10,7 +10,7 @@
 .images {
     max-width: 90%;
     width: 90%;
-    margin: 0 auto 120px auto;
+    margin: 0 auto 40px auto;
     display: flex;
 
 }
@@ -19,6 +19,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    margin-bottom: 30px;
 }
 
 .toolIcons img{
@@ -38,4 +39,36 @@
 
 .lb-text {
     font-family: $font-style3;
+    width: 83%;
+    margin-left: 10%;
+    margin-top: 30px;
+    line-height: 24px;
 }
+
+.lb-title {
+    font-family: $font-style;
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase; 
+    margin-bottom: 20px;
+}
+
+.lb-underline{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.toolsTitle {
+    font-family: $font-style;
+    text-transform: uppercase;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.lb-underline2{
+    width: 80%;
+    margin: 0 auto 30px auto;
+}
+

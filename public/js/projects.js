@@ -9,12 +9,16 @@ const lightboxParse = (() => {
             let images = document.querySelector('.images'),
                 para = document.querySelector('.paraContent1'),
                 icon1 = document.querySelector('.content1'),
-                icon2 = document.querySelector('.content2');
+                icon2 = document.querySelector('.content2'),
+                heading = document.querySelector('.nameHead');
 
                 let lbImg = 
                 `images/${object.lightIMG}`,
                 lbPara = `
                 <p class="lb-text">${object.Para}</p>
+                `,
+                lbHead = `
+                <h3 class="lb-title">${object.Name}</h3>
                 `,
                 lbIcon1 = 
                 `images/${object.Icon1}`,
@@ -23,6 +27,7 @@ const lightboxParse = (() => {
 
                 images.src = lbImg;
                 para.innerHTML = lbPara;
+                heading.innerHTML = lbHead;
                 icon1.src = lbIcon1;
                 icon2.src = lbIcon2;
 
