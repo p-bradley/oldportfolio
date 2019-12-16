@@ -103,6 +103,10 @@
         font-size: 25px;
     }
 
+    .projUnderline {
+        width: 50%;
+    }
+
     .photoProj p {
         font-size: 24px !important;
         line-height: 28px;
@@ -257,6 +261,13 @@
         letter-spacing: 10px;
     }
 
+    
+    .projUnderline {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width: 55%;
+    }
+
     #homeUnderline1 {
         width: 85%;
         margin-bottom: 30px;
@@ -279,7 +290,7 @@
     }
 
     .projAnglers h5 {
-        font-size: 36px;
+        font-size: 26px;
         width: 41%;
         line-height: 44px;
     }
@@ -301,7 +312,7 @@
     }
 
     .photoProj h5{
-        font-size: 36px;
+        font-size: 26px;
     }
 
     .photoProj div {
@@ -365,17 +376,13 @@
         margin: 0 auto;
     }
 
-    .footerBox {
-        height: 180px;
-    }
-
     .footerLine {
         margin-bottom: 30px;
     }
 
      /*HOME END (1000px)*/
 
-/*------------------------------------/*
+/*------------------------------------*/
 
  /*ABOUT START (1000px)*/
 
@@ -401,7 +408,7 @@
 
      /*ABOUT END (1000px)*/
 
-/*------------------------------------/*
+/*------------------------------------*/
     
      /*CONTACT START (1000px)*/
 
@@ -433,6 +440,7 @@
      }
 
      form button {
+         max-width: 400px;
          width: 50%;
          margin: 40px 0;
          height: 100px;
@@ -461,11 +469,147 @@
     }
 
     .videoLine {
-        width: 40%;
+        width: 50%;
     }
 
     .projectCon p {
         font-size: 32px;
     }
-
 }
+
+
+     /*CONTACT END (1400px)*/
+
+/*------------------------------------*/
+    
+     /*HOME START (1400px)*/
+     
+@media screen and (min-width:1400px) {
+
+    .mainBck h1 {
+        font-size: 120px;
+        padding-top: 310px;
+    }
+
+    #homeUnderline1 {
+        margin-top: 50px;
+        width: 65%;
+        margin-bottom: 40px;
+    }
+
+    .mainBck h2 {
+        font-size: 32px;
+        margin-bottom: 80px;
+    }
+    
+    .homeProj h3 {
+        margin-bottom: 30px;
+    }
+
+    .projUnderline {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width: 40%;
+    }
+    
+    .projAnglers p {
+        margin-top: 20px;
+    }
+
+    .imageCon {
+        margin-bottom: 700px;
+    }
+
+    .photoProj div {
+        margin-bottom: 810px;
+    }
+
+    .skillCon h4 {
+        font-size: 30px;
+    }
+
+    /*HOME END (1400px)*/
+
+/*--------------------------------------*/
+
+
+    /*PROJECTS START (1400px)*/
+
+    .projLine {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .projectCon h3 {
+        margin-top: 40px;
+    }
+
+    .videoLine {
+        margin-bottom: 30px;
+        width: 40%;
+    }
+
+    /*PROJECTS END (1400px)*/
+}
+
+@media screen and (min-width:1920px) {
+
+    /*HOME START (1400px)*/
+
+    .mainBck h1 {
+        padding-top: 380px;
+        font-size: 160px;
+    }
+
+    .mainBck h2 {
+        font-size: 40px;
+    }
+
+   .projAnglers p {
+       margin-bottom: 20px;
+   }
+
+   .imageCon {
+       margin-bottom: 900px;
+   }
+
+   .homeDivLine {
+       margin-top: 80px;
+       margin-bottom: 80px;
+   }
+
+   .homeProj h4 {
+       margin-bottom: 60px;
+   }
+
+   .photoProj h4 {
+       margin-bottom: 50px;
+   }
+
+   .photoProj:nth-child(11) {
+        margin-top: 300px;
+}
+
+    #francePara1 {
+        margin-top: 1100px;
+}
+
+    .skills img {
+        max-width: 50%;
+    }
+
+    .skillCon h4 {
+        font-size: 34px;
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+
+    .projUnderline {
+        width: 30%;
+    }
+
+    /*HOME START (1400px)*/
+
+/*----------------------------------*/
+}
+
