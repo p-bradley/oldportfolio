@@ -13,6 +13,7 @@ To view the website in a localhost:
 <br>
 clone the repository,
 install npm
+run npm start in a terminal
 view on localhost:3000 in a web browser
 
 ## TOOLS USED:
