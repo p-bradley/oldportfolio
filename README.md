@@ -1,5 +1,8 @@
 # W. Patrick Bradley Portfolio
 
+## CREATOR:
+W. Patrick Bradley
+
 ## DESCRIPTION:
 The site is a dynamic 4 page website which displays a portfolio of my past works.
 <br>
