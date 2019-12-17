@@ -15,6 +15,10 @@
 
 }
 
+.projectCon p {
+    padding-bottom: 30px;
+}
+
 .toolIcons {
     display: flex;
     flex-direction: row;
@@ -30,7 +34,7 @@
 .close {
     position: absolute;
     right: 4%;
-    top: 70px;
+    top: 60px;
     font-family: $font-style2;
     font-weight: bold;
     font-size: 26px;
@@ -71,4 +75,5 @@
     width: 80%;
     margin: 0 auto 30px auto;
 }
+
 
