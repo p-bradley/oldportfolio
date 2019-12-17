@@ -146,6 +146,10 @@
     .imageCon {
         margin-bottom: 310px;
     }
+
+    .socialCon a img {
+        max-width: 40px;
+    }
 }
 
 @media screen and (min-width:640px) {
@@ -167,6 +171,23 @@
        font-size: 80px;
      }  
 
+/* PROJECTS START (640px) */
+
+    .lb-title {
+        font-size: 60px !important;
+}
+
+    .lb-text {
+        font-size: 20px !important;
+    }
+
+    .toolsTitle {
+        font-size: 60px !important;
+    }
+
+    .toolIcons img {
+        max-width: 25% !important;
+    }
 
 /*----------------------------------*/
 
@@ -323,6 +344,11 @@
     }
 
     /*PROJECTS END (640px)*/
+
+    .video {
+        width: 80%;
+        margin: 0 auto;
+    }
 }
 
 @media screen and (min-width:680px) {
@@ -397,6 +423,11 @@
     }
 }
 
+@media screen and (min-width:780px) {
+    .images {
+        max-width: 50% !important;
+    }
+}
 
 @media screen and (min-width:1000px) {
 
@@ -515,9 +546,9 @@
         width: 25%;
     }
 
-    .socialCon img {
+    .socialCon a img {
         margin-top: 40px;
-        max-width: 10%;
+        max-width: 30%;
         margin-bottom: 10px;
     }
 
@@ -633,6 +664,32 @@
     /*CONTACT END (1000px)*/
 
     /*------------------------------------*/
+
+    /*PROJECTS START (1000px)*/
+
+    .lb-title {
+        font-size: 70px !important;
+        margin-bottom: 40px !important;
+
+    }
+
+    .lb-text {
+        font-size: 22px !important;
+        letter-spacing: 2px;
+        margin-top: 40px !important;
+        margin-bottom: 40px !important;
+    }
+
+    .toolsTitle {
+        font-size: 70px !important;
+        margin-bottom: 40px !important;
+    }
+
+    .toolIcons img {
+        width: 20% !important;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
 }
      
 @media screen and (min-width:1060px) {
@@ -699,12 +756,22 @@
     .imageCon {
         margin-bottom: 640px;
     }
+
+    .images {
+        max-width: 20% !important;
+    }
 }
 
 @media screen and (min-width:1360px) {
 
     .photoProj div {
         margin-bottom:760px;
+    }
+
+    .toolIcons img {
+        width: 15% !important;
+        margin-top: 40px;
+        margin-bottom: 40px;
     }
 }
 
