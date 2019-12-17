@@ -1,9 +1,13 @@
 # W. Patrick Bradley Portfolio
 
-## About
+## DESCRIPTION:
 The site is a dynamic 4 page website which displays a portfolio of my past works.
 <br>
 The site allows for future updates and includes in the project section and can be used on mobile from 320px to desktop at 1920px
+
+## HOW TO VIEW
+The site is currently hosted on http://www.patrickbradley.digital/
+but can also be viewed in localhost:3000
 
 ## TOOLS USED:
 
