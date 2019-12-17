@@ -1,5 +1,3 @@
 # bradley_patrick_portfolio
-<br>
-#
-<br>
-# about:
+
+# is this working now
