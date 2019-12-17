@@ -1,13 +1,12 @@
-# bradley_patrick_portfolio
+# W. Patrick Bradley Portfolio
 
 ## About
-
 The site is a dynamic 4 page website which displays a portfolio of my past works.
 The site allows for future updates and includes in the project section and can be used on mobile from 320px to desktop at 1920px
-<
+
 # TOOLS USED:
 
-Development:
+## Development:
 Visual Studio Code
 PHPmyAdmin
 HTML5
