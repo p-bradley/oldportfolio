@@ -9,18 +9,15 @@ The site allows for future updates and includes in the project section and can b
 <br>
 # TOOLS USED:
 <br>
-## Development:
-### Visual Studio Code
-### PHPmyAdmin
-### HTML5
-### CSS3
-### JavaScript
-### Node.js
-### Express 
+Development:
+Visual Studio Code
+PHPmyAdmin
+HTML5
+CSS3
+JavaScript
+Node.js
+Express 
 <br>
 ## Design:
-### Photoshop
-### Illustrator
-
-
-
+Photoshop
+Illustrator
