@@ -11,9 +11,14 @@ To view the website online: the site is currently hosted on http://www.patrickbr
 ## SETUP
 To view the website in a localhost:
 <br>
-clone the repository,
+clone this project's repository
+<br>
+open a terminal
+<br>
 install npm
-run npm start in a terminal
+<br>
+run npm start in the terminal
+<br>
 view on localhost:3000 in a web browser
 
 ## TOOLS USED:
