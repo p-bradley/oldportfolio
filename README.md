@@ -1,4 +1,3 @@
 # bradley_patrick_portfolio
 
-#
-TOOLS USED:
+#TOOLS USED:
