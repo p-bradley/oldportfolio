@@ -5,22 +5,17 @@ var nodemailer = require('nodemailer');
 var sql = require('../utils/sql');
 
 router.get('/', function(req, res) {
-  let query = "SELECT * FROM tbl_home";
   
-  sql.query(query, (err, result) => {
-    if (err) { throw err; console.log(err); }
-  
-    res.render('index', { skill: result});
-  })
+    res.render('index');
   });
 
 router.get('/about', function(req, res) {
-let query = "SELECT Service FROM tbl_info";
+let query = "SELECT * FROM tbl_home";
 
 sql.query(query, (err, result) => {
   if (err) { throw err; console.log(err); }
 
-  res.render('about', { Services: result});
+  res.render('about', { skill: result});
 })
 });
 
@@ -67,13 +62,31 @@ router.post('/send', (req, res) => {
   <p>${req.body.message}</li>
   `
 
+  const output2 =` 
+  <h3>Thank you for contacting me ${req.body.name}!</h3>
+  <p>This is an automated Email and I will reply to your inquiry as soon as possible!</p>
+  `
+
   let transporter = nodemailer.createTransport({
     host: 'smtp.gmail.com',
     port: 587,
     secure: false,
     auth: {
-        user: 'pbradleyFanshaweC@gmail.com',
-        pass: 'portfolio'  
+        user: 'wpatrickbradley99@gmail.com',
+        pass: 'zeylhijkmtqcrwit'  
+    },
+    tls:{
+      rejectUnauthorized:false
+    }
+  });
+
+  let transporter2 = nodemailer.createTransport({
+    host: 'smtp.gmail.com',
+    port: 587,
+    secure: false,
+    auth: {
+        user: 'wpatrickbradley99@gmail.com',
+        pass: 'zeylhijkmtqcrwit'  
     },
     tls:{
       rejectUnauthorized:false
@@ -88,6 +101,14 @@ router.post('/send', (req, res) => {
       html: output
   };
 
+  let mailOptions2 = {
+    from: '"New Email" wpatrickbradley99@gmail.com', 
+    to: `${req.body.email}`,
+    subject: 'Confirmation',
+    text: 'Thanks for the email!',
+    html: output2
+};
+
   transporter.sendMail(mailOptions, (error, info) => {
       if (error) {
           return console.log(error);
@@ -98,6 +119,13 @@ router.post('/send', (req, res) => {
       res.render('contact', {message:'Thank you for contacting me, I will reply shortly!'});
   });
 
-});
+  transporter2.sendMail(mailOptions2, (error, info) => {
+    if (error) {
+        return console.log(error);
+    }
+    console.log('Message sent: %s', info.messageId);
+    console.log('Preview URL: %s', nodemailer.getTestMessageUrl(info));
 
+});
+});
 module.exports = router;

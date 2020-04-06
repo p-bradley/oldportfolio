@@ -4,7 +4,7 @@
         <h3>About</h3>
         <div class="homeUnderline aboutUnderline"></div>
         <h4>hello</h4>
-        <p>My name is Patrick Bradley. I’m a second-year Interactive Media Design student at Fanshawe College in London, Ontario.</p>
+        <p id="aboutPara1">My name is Patrick Bradley. I’m a second-year Interactive Media Design student at Fanshawe College in London, Ontario.</p>
         <p>I love graphic design (especially UX/UI) video editing and photography as well as hockey, videogames, thrift shopping, music, swimming and dogs.</p>
         
     </section>
@@ -13,18 +13,17 @@
             <div class="projBtn"><a href="https://cdn.filesend.jp/private/qW8r3j0TaIi8ABFQiA3rLasIGSjsyaQOVVGAuEx1v4emLXzJ71DecCR0VkW8Dkrv/resume.pdf" download="patrick_bradley_resume"><h4>resume</h4></a></div>
             </aside>
 
-   <section class="whiteBox myServices">
-       <h3>my services</h3>
-       <div class="homeUnderline serviceLine">
-       </div>
-       <div class="serviceCon">
-        {{#each Services}}
-           <div class="services">
-               <h5>{{Service}}</h5>
-           </div>
-        {{/each}}
+   <section class="whiteBox homeSkills">
+                        <h3>Skills</h3>
+                        <div class="skills">
+                            {{#each skill}}
+                        <div class="skillCon" id="skill{{ID}}">
+                            <img src="images/{{Program}}" alt="icon for {{Name}}">
+                            <h4>{{Name}}</h4>
 
-       </div>
-   </section>
+                        </div>
+                         {{/each}} 
+                        </div>        
+    </section>
    </div>
 </main>

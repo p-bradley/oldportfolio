@@ -12,6 +12,10 @@
    
 }
 
+#francePara2 {
+    margin-top: -16%;
+}
+
 .mainBck h1 {
     font-family: $font-style;
     font-size: 34px;
@@ -43,6 +47,15 @@
     margin: 15px auto 15px auto;
 }
 
+.flickity-viewport {
+    height: 60vw !important;
+}
+
+.carousel-cell {
+    width: 100%;
+    display: flex;
+}
+
 .greyBck {
     background: #f4f4f4;
     padding-top: 20px;
@@ -72,13 +85,18 @@
 
 
 .photoProj div {
-    margin-bottom: 240px;
+    margin-bottom: 16%;
 }
 
 .projUnderline {
     width: 60%;
     margin: 15px auto 15px auto;
 
+}
+
+#projPara2 {
+    margin-top: -16%;
+    margin-bottom: 0;
 }
 
 .projAnglers p {
@@ -104,9 +122,10 @@
     text-align: center;
     padding-top: 40px;
     width: 70%;
-    margin: 0 auto;
+    margin: 0 auto 5%;
     letter-spacing: 1px;
     font-weight: bold;
+    
 }
 
 
@@ -150,9 +169,9 @@
     text-align: left;
     font-size: 14px;
     font-family: $font-style2;
-    margin: 15px auto;
+    margin: 20% auto;
     width: 94%;
-    letter-spacing: 1.6px;
+    line-height: 5vw;
 }
 
 .whiteBox1 {

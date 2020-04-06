@@ -7,5 +7,16 @@ let navBtn = document.querySelector('.hamburgerIcon'),
         navMenu.classList.toggle('reveal');
     });
 
+    (function($) {
 
+        $(document).ready(function(){
+            $('.carousel').flickity({
+                wrapAround: true,
+                freeScroll: true,
+                cellAlign: 'center',
+                setGallerySize: false
+            });
+        });
+    
+    })(jQuery)
 

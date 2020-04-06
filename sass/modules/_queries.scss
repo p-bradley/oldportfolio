@@ -1,14 +1,8 @@
+
+
 @media screen and (min-width:390px) {
     .imageCon {
         margin-bottom: 220px;
-    }
-
-    .photoProj div {
-        margin-bottom: 220px;
-    }
-
-    #projPara {
-        margin-top: 200px;
     }
 }
 
@@ -20,9 +14,6 @@
         margin-bottom: 230px;
     }
 
-    .photoProj div {
-        margin-bottom: 260px;
-    }
 
     .mainBck h1 {
         font-size: 54px;
@@ -44,9 +35,10 @@
      }
 
      .aboutText p {
-         font-size: 20px;
+         font-size: 16px;
          line-height: 24px;
      }
+
 }
 
     /*END OF ABOUT (400PX)*/
@@ -84,27 +76,13 @@
 
     /*HOME START (500px)*/
 
-    .projAnglers p {
-        margin-top: 10px;
-    }
-
-    .photoProj div {
-        margin-bottom: 300px;
-    }
+   
 
     .imageCon {
         margin-bottom: 260px;
     }
 
 }
-
-    .projAnglers p {
-        margin-top: 10px;
-    }
-
-    .photoProj div {
-        margin-bottom: 230px;
-    }
 
     .imageCon {
         margin-bottom: 190px;
@@ -124,10 +102,6 @@
         margin-top: 20px;
     }
 
-    .photoProj div {
-        margin-bottom: 340px;
-    }
-
     .imageCon {
         margin-bottom: 290px;
     }
@@ -139,9 +113,6 @@
         margin-top: 20px;
     }
 
-    .photoProj div {
-        margin-bottom: 340px;
-    }
 
     .imageCon {
         margin-bottom: 310px;
@@ -170,6 +141,7 @@
        line-height: 60px;
        font-size: 80px;
      }  
+     
 
 /* PROJECTS START (640px) */
 
@@ -178,7 +150,7 @@
 }
 
     .lb-text {
-        font-size: 20px !important;
+        font-size: 16px !important;
     }
 
     .toolsTitle {
@@ -210,7 +182,7 @@
     }
 
     .photoProj p {
-        font-size: 24px !important;
+        font-size: 18px !important;
         line-height: 28px;
     }
 
@@ -230,33 +202,36 @@
         margin-bottom: 340px;
     }
 
-    .photoProj div {
-        margin-bottom: 380px;
+    #projPara {
+        margin-top: 8%;
+    }
+
+    #francePara1 {
+        margin-top: -1%;
     }
 
     .projAnglers p {
-        font-size: 24px !important;
+        font-size: 18px !important;
         line-height: 28px;
     }
 
     .blackBox {
-        height: 210px;
+        height: 160px;
     }
 
     .blackBox h3 {
         padding-top: 20px;
-        font-size: 50px;
+        font-size: 30px;
         letter-spacing: 6px;
     }
 
     .projBtn{
-        height: 80px;
+        height: 60px;
     }
 
     .projBtn a h4{
         font-size: 20px;
         margin-top: 30px !important;
-        padding-top: 30px;
     }
 
     .homeSkills h3 {
@@ -286,12 +261,12 @@
     }
 
     .aboutText h4{
-        font-size: 120px;
+        font-size: 80px;
     }
 
     .aboutText p {
-        font-size: 22px;
-        line-height: 28px;
+        font-size: 16px;
+        line-height: 24px;
     }
 
     .myServices h3 {
@@ -349,16 +324,20 @@
         width: 80%;
         margin: 0 auto;
     }
+
+    .skills {
+        width: 70%;
+    }
+
+    .skillCon img {
+        width: 50%;
+    }
 }
 
 @media screen and (min-width:680px) {
 
     .projAnglers p {
         margin-top: 20px;
-    }
-
-    .photoProj div {
-        margin-bottom: 410px;
     }
 
     .imageCon {
@@ -369,20 +348,29 @@
 
 @media screen and (min-width:732px) {
 
-    .photoProj div {
-        margin-bottom: 430px;
-    }
 
     .imageCon {
         margin-bottom: 370px;
+    }
+
+    .toolIcons {
+    width: 50%;
+    margin: 0 auto 30px;
+
+    img {
+    max-width: 35% !important;
+    }
+    }
+    
+    #emailSent p {
+        text-align: center;
+        margin: 0 auto;
     }
 }
 
 @media screen and (min-width:776px) {
 
-    .photoProj div {
-        margin-bottom: 450px;
-    }
+
 
     .imageCon {
         margin-bottom: 400px;
@@ -392,9 +380,7 @@
 
 @media screen and (min-width:816px) {
 
-    .photoProj div {
-        margin-bottom: 490px;
-    }
+  
 
     .imageCon {
         margin-bottom: 420px;
@@ -403,9 +389,7 @@
 
 @media screen and (min-width:880px) {
 
-    .photoProj div {
-        margin-bottom: 510px;
-    }
+
 
     .imageCon {
         margin-bottom: 430px;
@@ -414,9 +398,6 @@
 
 @media screen and (min-width:920px) {
 
-    .photoProj div {
-        margin-bottom: 560px;
-    }
 
     .imageCon {
         margin-bottom: 460px;
@@ -427,7 +408,10 @@
     .images {
         max-width: 50% !important;
     }
+
+
 }
+
 
 @media screen and (min-width:1000px) {
 
@@ -438,6 +422,10 @@
         padding-top: 240px;
         letter-spacing: 16px;
         margin-bottom: 40px;
+    }
+
+    #emailSent p {
+        font-size: 16px;
     }
     
     .mainBck h2 {
@@ -485,10 +473,7 @@
     }
 
     .projAnglers p {
-        font-size: 32px !important;
-        line-height: 50px;
-        letter-spacing: 1px;
-        padding-bottom: 20px;
+        font-size: 20px !important;
     }
 
     .homeDivLine {
@@ -500,39 +485,34 @@
         font-size: 26px;
     }
 
-    .photoProj div {
-        margin-bottom: 580px;
-    }
+
 
     .photoProj p {
-        font-size: 28px !important;
-        line-height: 50px;
-        margin-bottom: 40px;
+        font-size: 20px !important;
     }
 
     .blackBox {
-        height: 300px;
+        height: 230px;
     }
 
     .projBtn {
-        height: 120px;
+        height: 80px;
+        width: 24%;
     }
 
     .projBtn a h4 {
-        font-size: 30px;
-        padding-top: 40px;
-        letter-spacing: 6px;
+        font-size: 20px;
+        padding-top: 30px;
     }
 
     .blackBox h3 {
         margin-top: 40px;
         padding-top: 40px;
-        font-size: 60px;
-        letter-spacing: 10px;
+        font-size: 40px;
     }
 
     .homeSkills h3 {
-        font-size: 80px;
+        font-size: 60px;
         margin-bottom: 60px;
     }
 
@@ -584,11 +564,9 @@
     }
 
     .aboutText p {
-        font-size: 24px;
-        letter-spacing: 3px;
+        font-size: 17px;
         margin-top: 40px;
-        margin-bottom: 40px;
-        line-height: 35px;
+        line-height: 30px;
     }
 
     .serviceCon {
@@ -609,30 +587,30 @@
          width: 20%;
      }
 
-     form {
-         width: 90%;
-     }
-
      label {
          font-size: 30px;
          line-height: 40px;
+         width: 60%;
+         margin: 15px auto;
      }
 
      input {
          width: 60%;
          height: 45px !important;
+         margin: 0 auto;
      }
 
      textarea {
-         width: 85%;
+         width: 60%;
          height: 180px;
+        margin: 0 auto;
      }
 
      form button {
          max-width: 400px;
-         width: 50%;
-         margin: 40px 0;
-         height: 100px;
+         width: 30%;
+         margin: 40px 0 40px 20%;
+         height: 70px;
          font-size: 32px;
          letter-spacing: 4px;
 
@@ -678,10 +656,10 @@
     }
 
     .lb-text {
-        font-size: 22px !important;
-        letter-spacing: 2px;
+        font-size: 20px !important;
         margin-top: 40px !important;
         margin-bottom: 40px !important;
+        line-height: 24px !important;
     }
 
     .toolsTitle {
@@ -690,7 +668,7 @@
     }
 
     .toolIcons img {
-        width: 20% !important;
+        width: 30% !important;
         margin-top: 40px;
         margin-bottom: 40px;
     }
@@ -698,20 +676,27 @@
      
 @media screen and (min-width:1060px) {
 
-    .photoProj div {
-        margin-bottom: 600px;
-    }
     
     .imageCon {
         margin-bottom: 500px;
+    }
+
+    .carousel-cell {
+        width: 34%;
+    }
+
+    .flickity-viewport {
+        height: 21vw !important;
+    }
+
+    .projAnglers p {
+        text-align: center;
     }
 }
 
 @media screen and (min-width:1100px) {
 
-    .photoProj div {
-        margin-bottom: 640px;
-    }
+
     
     .imageCon {
         margin-bottom: 540px;
@@ -720,9 +705,7 @@
 
 @media screen and (min-width:1180px) {
 
-    .photoProj div {
-        margin-bottom: 670px;
-    }
+    
     
     .imageCon {
         margin-bottom: 550px;
@@ -731,9 +714,6 @@
 
 @media screen and (min-width:1220px) {
 
-    .photoProj div {
-        margin-bottom:700px;
-    }
     
     .imageCon {
         margin-bottom: 600px;
@@ -742,9 +722,6 @@
 
 @media screen and (min-width:1290px) {
 
-    .photoProj div {
-        margin-bottom:720px;
-    }
     
     .imageCon {
         margin-bottom: 620px;
@@ -753,9 +730,7 @@
 
 @media screen and (min-width:1325px) {
 
-    .photoProj div {
-        margin-bottom:740px;
-    }
+
     
     .imageCon {
         margin-bottom: 640px;
@@ -768,23 +743,67 @@
 
 @media screen and (min-width:1360px) {
 
-    .photoProj div {
-        margin-bottom:760px;
-    }
+   
 
     .toolIcons img {
-        width: 15% !important;
+        width: 25% !important;
         margin-top: 40px;
         margin-bottom: 40px;
     }
-}
 
+    form button {
+    margin: 40px auto;
+    }
+
+    .projAnglers p {
+        font-size: 16px !important;
+    }
+
+    #projPara2 {
+        margin-top: -20%;
+    }
+
+    .photoProj p {
+        font-size: 16px !important;
+    }
+
+    #francePara1 {
+        margin-top: -11%;
+    }
+
+    #francePara2 {
+        margin-top: -18%;
+        margin-bottom: 2%;
+    }
+
+    .mainBck {
+        background-size: cover;
+        height: 40vw;
+        h1 {
+            padding-top: 12% !important;
+        }
+        a {
+            img{
+                width: 3%;
+            }
+        }
+    }
+}
      
+@media screen and (min-width:1200px) {
+    .aboutText p {
+        text-align: center;
+    }  
+    
+    .skills {
+        width: 60%;
+    }
+}  
+
 @media screen and (min-width:1400px) {
 
     .mainBck h1 {
         font-size: 120px;
-        padding-top: 310px;
     }
 
     #homeUnderline1 {
@@ -816,13 +835,6 @@
         margin-bottom: 700px;
     }
 
-    .photoProj div {
-        margin-bottom: 810px;
-    }
-
-    .skillCon h4 {
-        font-size: 30px;
-    }
 
     /*HOME END (1400px)*/
 
@@ -851,31 +863,25 @@
 
 @media screen and (min-width:1490px) {
 
-    .photoProj div {
-        margin-bottom:840px;
-    }
 }
 
 @media screen and (min-width:1550px) {
-
-    .photoProj div {
-        margin-bottom:880px;
-    }
     
     .imageCon {
         margin-bottom: 740px;
     }
 
     .aboutText h4 {
-        font-size: 170px;
+        font-size: 100px;
+
+    .skillCon img {
+        width: 30%;
+    }
     
 }
 
 @media screen and (min-width:1620px) {
 
-    .photoProj div {
-        margin-bottom:900px;
-    }
     
     .imageCon {
         margin-bottom: 760px;
@@ -888,10 +894,12 @@
 
 @media screen and (min-width:1660px) {
 
-    .photoProj div {
-        margin-bottom:940px;
+    form button {
+        width: 20% !important;
+        letter-spacing: 0;
+        font-size: 24px;
     }
-    
+
     .imageCon {
         margin-bottom: 780px;
     }
@@ -899,9 +907,6 @@
 
 @media screen and (min-width:1730px) {
 
-    .photoProj div {
-        margin-bottom:990px;
-    }
     
     .imageCon {
         margin-bottom: 820px;
@@ -910,10 +915,7 @@
 
 @media screen and (min-width:1820px) {
 
-    .photoProj div {
-        margin-bottom:1020px;
-    }
-    
+   
     .imageCon {
         margin-bottom: 850px;
     }
@@ -922,9 +924,7 @@
 
 @media screen and (min-width:1890px) {
 
-    .photoProj div {
-        margin-bottom:1040px;
-    }
+
     
     .imageCon {
         margin-bottom: 870px;
@@ -943,10 +943,6 @@
     .mainBck h2 {
         font-size: 40px;
     }
-
-   .projAnglers p {
-       margin-bottom: 20px;
-   }
 
    .imageCon {
        margin-bottom: 900px;
@@ -969,18 +965,21 @@
         margin-top: 300px;
 }
 
-    #francePara1 {
-        margin-top: 1100px;
-}
-
     .skills img {
         max-width: 50%;
     }
 
     .skillCon h4 {
-        font-size: 34px;
-        margin-top: 80px;
+        font-size: 20px;
         margin-bottom: 80px;
+    }
+
+    .lb-text {
+        text-align: center;
+    }
+
+    .toolIcons img {
+        width: 20% !important;
     }
 
     .projUnderline {
