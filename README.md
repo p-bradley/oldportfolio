@@ -9,7 +9,7 @@ The site is a dynamic 4 page website which displays a portfolio of my past works
 The site allows currently allows for future updates and can be used on mobile from 320px to desktop at 1920px
 
 ## HOW TO VIEW
-To view the website online: the site is currently hosted on http://www.patrickbradley.digital/
+To view the website online: the site is currently hosted on http://patrickbradley.me
 
 ## SETUP
 To view the website in a localhost:
