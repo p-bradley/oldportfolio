@@ -1,12 +1,12 @@
 .navCon {
-    height: 0;
     background-color: #181919;
     width: 100%;
     position: fixed;
-    top: 0;
-    display: none;
+    top: -100%;
     overflow-x: hidden;
     z-index: 9000;
+    transition: top 1.4s cubic-bezier(0.25, 1, 0.5, 1);
+    height: 100%;
 }
 
 .navBar {
@@ -52,6 +52,7 @@
     background-color: rgba($color: black, $alpha: 0.5);
     z-index: 9000;
 
+
 }
 
 .hamburgerIcon {
@@ -73,17 +74,7 @@
 }
 
 .reveal {
-    display: block !important;
-    animation: slide-nav 1.6s cubic-bezier(0.165, 0.84, 0.44, 1);
-    animation-fill-mode: forwards;
+    top: 0;
+    
 }
 
-@keyframes slide-nav {
-    0% {
-        height: 0;
-    }
-
-    100% {
-        height: 100%;
-    }
-}

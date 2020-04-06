@@ -348,9 +348,16 @@
 
 @media screen and (min-width:732px) {
 
+    .hamburgerIcon {
+        max-width: 50px;
+    }
 
     .imageCon {
         margin-bottom: 370px;
+    }
+
+    .socialCon a {
+        width: 10%;
     }
 
     .toolIcons {
@@ -384,6 +391,14 @@
 
     .imageCon {
         margin-bottom: 420px;
+    }
+
+    .socialCon {
+        width: 20%;
+
+        a {
+            width: 20%;
+        }
     }
 }
 
@@ -528,7 +543,6 @@
 
     .socialCon a img {
         margin-top: 40px;
-        max-width: 30%;
         margin-bottom: 10px;
     }
 
@@ -798,6 +812,10 @@
     .skills {
         width: 60%;
     }
+
+    .socialCon a {
+        width: 14%;
+    }
 }  
 
 @media screen and (min-width:1400px) {
@@ -900,6 +918,10 @@
         font-size: 24px;
     }
 
+    .socialCon a {
+        width: 10%;
+    }
+
     .imageCon {
         margin-bottom: 780px;
     }
@@ -938,6 +960,10 @@
     .mainBck h1 {
         padding-top: 380px;
         font-size: 160px;
+    }
+
+    .socialCon a {
+        width: 9%;
     }
 
     .mainBck h2 {
